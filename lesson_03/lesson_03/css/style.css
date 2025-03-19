@@ -1,0 +1,66 @@
+@import url("reset.css");
+
+/* Стилізація за різними типами селекторів */
+p {
+    color: red;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+.nav-item {
+    color: aqua;
+}
+
+[class*="footer-"] {
+    color: chartreuse;
+}
+
+[title*="Навігація"] {
+    color: teal;
+}
+
+[target*="_blank"] {
+    color: gold;
+}
+
+
+/* Комбінації селекторів */
+p.discription-text {
+    color: cornflowerblue;
+}
+
+.nav-item.item {
+    color: hotpink;
+}
+
+.titel,
+.text {
+    color: olive;
+}
+
+/* Каскадність */
+.artical-3 p {
+    color: orchid;
+}
+
+.container-artical .text-artical-2 {
+    color: burlywood;
+}
+
+#artical-5 * {
+    color: goldenrod;
+}
+
+main>a {
+    color: magenta;
+}
+
+.titel-artical-4~.text-artical-4 {
+    color: mediumspringgreen;
+}
+
+.text-artical-2+p {
+    color: black;
+}

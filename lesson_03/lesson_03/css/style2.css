@@ -1,0 +1,31 @@
+/* @import url(reset.css); */
+/* Перший рівень */
+ul>li {
+    color: red;
+}
+
+ul>li~li {
+    color: green;
+}
+
+/* Другий рівень вкладеності */
+ul ul>li {
+    color: blue;
+}
+
+ul ul>li~li {
+    color: orange;
+}
+
+ul ul>li>span {
+    color: #a0f0fc;
+}
+
+/* Третій рівень вкладеності */
+ol>li {
+    color: #4597f7;
+}
+
+ol>li~li {
+    color: #5d5d5d;
+}
