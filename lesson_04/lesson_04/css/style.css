@@ -19,7 +19,7 @@ body {
 /* Блок block-baner */
 
 .block-baner h1 {
-    color: blue;
+    color: #0000ff;
 
     font-family: "PlayfairDisplaySC", serif;
     font-size: 48px;
@@ -32,7 +32,7 @@ body {
 
     text-decoration: underline;
     text-decoration-style: wavy;
-    text-decoration-color: aquamarine;
+    text-decoration-color: #7fffd4;
 
     text-shadow: -5px -5px 5px rgba(0, 0, 255, 0.521),
         5px 5px 5px rgba(0, 0, 255, 0.521);
@@ -42,7 +42,7 @@ body {
 /* ----------------------------------------------------------------------- */
 /* Блок block-intro */
 .block-intro h2 {
-    color: chartreuse;
+    color: #7fff00;
 
     font-family: "Segoe Script", cursive;
     font-size: 36px;
@@ -65,7 +65,7 @@ body {
 /* ----------------------------------------------------------------------- */
 /* Блок block-origination */
 .titel-block-origination {
-    color: goldenrod;
+    color: #daa520;
 
     font-family: "PlayfairDisplaySC", serif;
     font-size: 36px;
@@ -82,13 +82,14 @@ body {
 }
 
 .subtitel-block-origination {
-    color: burlywood;
+    color: #deb887;
 
     font-family: "PlayfairDisplaySC", serif;
 }
 
 .subtitel-block-origination>span {
-    text-decoration: line-through black;
+    text-decoration: line-through;
+    text-decoration-color: #000000;
     text-decoration-thickness: 3px;
 }
 
@@ -108,7 +109,7 @@ body {
 /* ----------------------------------------------------------------------- */
 /* Блок block-articals */
 .block-articals h2 {
-    color: black;
+    color: #000000;
 
     font-family: "Tektur", sans-serif;
     font-size: 36px;
@@ -126,7 +127,9 @@ body {
 
 .block-articals a {
 
-    text-decoration: underline dotted blue;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #ff0000;
     text-decoration-thickness: 4px;
 }
 
