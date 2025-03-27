@@ -183,9 +183,12 @@
        margin-bottom: 72px;
    }
 
+   .block-text h2,
    .block-text p {
        margin-bottom: 10px;
+   }
 
+   .block-text p {
        color: #5A54F2;
        font-weight: 700;
        line-height: 1.714;
@@ -198,15 +201,16 @@
    }
 
    .block-text h2 {
-       margin-bottom: 10px;
-
        font-size: 36px;
        font-weight: 700;
        line-height: 1;
    }
 
    .block-text h2~p {
+       max-width: 765px;
+       width: 100%;
        margin-bottom: 0;
+
        font-weight: 400;
        line-height: 1.42;
    }
