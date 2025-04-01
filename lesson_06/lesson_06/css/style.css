@@ -38,13 +38,10 @@ body {
     box-shadow: 10px -10px 0 0 black;
 }
 
-.hydra {
-    color: #FFF;
-    padding-bottom: 100px;
-}
 
 .hydra-wrapper {
     background-color: #302C42;
+    color: #FFF;
 }
 
 .hydra-container {
@@ -141,8 +138,9 @@ body {
 
 
 .about-wrapper {
-    background: url("../img/about-vector-1.svg") 0 6% / contain no-repeat,
-        url("../img/about-vector-2.svg") 0 87.5% / contain no-repeat;
+    padding-bottom: 111px;
+    background: url("../img/about-vector-1.svg") center 4.37% no-repeat,
+        url("../img/about-vector-2.svg") center 66.3% no-repeat;
 }
 
 .about-container {
@@ -172,7 +170,7 @@ body {
 .about-box h2,
 .about-box h3 {
     font-size: 36px;
-    line-height: 1.38;
+    line-height: 1.25;
     text-transform: uppercase;
 
 }
@@ -189,7 +187,8 @@ body {
 
 
 .about-text {
-    line-height: 1.625;
+    font-weight: 400;
+    line-height: 1.6;
     text-align: justify;
     margin-bottom: 28px;
 }
@@ -222,7 +221,7 @@ body {
 }
 
 .ecobazar-text-main,
-.ecobazar-list {
+.ecobazar ul {
     margin-bottom: 20px;
 }
 
@@ -230,11 +229,11 @@ body {
     margin-bottom: 25px;
 }
 
-.list-item {
+.ecobazar ul>li {
     margin-bottom: 14px;
     padding-left: 28px;
 
-    background: url("../img/check.png") 0 0 / 20px 20px no-repeat;
+    background: url("../img/check.svg") 0 center / 20px 20px no-repeat;
 }
 
 .ecobazar-text-main .zero-margin,
