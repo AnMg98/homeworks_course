@@ -13,7 +13,7 @@ body {
 }
 
 [class*="-container"] {
-    max-width: 1300px;
+    max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -189,7 +189,7 @@ body {
 }
 
 .text-section p {
-    max-width: 400px;
+    max-width: 393px;
     width: 100%;
     padding: 20px 30px;
     display: inline-block;
@@ -226,10 +226,6 @@ body {
     padding-bottom: 100px;
 }
 
-.block-cards-container {
-    max-width: 1230px;
-}
-
 .block-cards-content {
     font-size: 15px;
 }
@@ -251,7 +247,7 @@ body {
 }
 
 .cards {
-    margin: 0 -10px;
+    margin: -10px -10px;
     font-size: 0;
     overflow: hidden;
 }
@@ -259,7 +255,7 @@ body {
 .card-inner {
     width: 33.33333%;
     display: inline-block;
-    padding: 0 10px;
+    padding: 10px 10px;
     vertical-align: top;
     font-size: 15px;
 }
@@ -346,6 +342,7 @@ body {
 
 
 .advantages-content>ul {
+    padding: 13px 0;
     color: #4F4F4F;
     font-size: 0px;
 }
@@ -357,7 +354,7 @@ body {
 }
 
 .advantages-content>ul>li:not(:last-child) {
-    margin-bottom: 25px;
+    margin-bottom: 21px;
 }
 
 .advantages-content>ul>li::before {
