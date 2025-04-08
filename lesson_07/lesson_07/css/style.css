@@ -345,12 +345,22 @@ body {
     padding: 13px 0;
     color: #4F4F4F;
     font-size: 0px;
+    margin-left: -44px;
+    overflow: hidden;
 }
 
 .advantages-content>ul>li>p {
     display: inline-block;
     max-width: 474px;
     font-size: 20px;
+}
+
+.advantages-content>ul>li>p:not(:first-child) {
+    padding-left: 44px;
+}
+
+.advantages-content>ul>li>p:not(:last-child) {
+    margin-bottom: 10px;
 }
 
 .advantages-content>ul>li:not(:last-child) {
